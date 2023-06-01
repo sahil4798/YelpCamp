@@ -1,0 +1,21 @@
+.navbar-brand {
+  font-weight: 500;
+}
+
+.nav-link {
+  padding-top: 0.75rem;
+  font-weight: 650;
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 1rem;
+  border-bottom: 0.25rem solid transparent;
+}
+
+.nav-link:hover {
+  color: white;
+  /* border-bottom-color: rgba(255, 255, 255, 0.5); */
+}
+
+.nav-link.active {
+  color: white;
+  border-bottom-color: rgba(255, 255, 255, 0.5);
+}
